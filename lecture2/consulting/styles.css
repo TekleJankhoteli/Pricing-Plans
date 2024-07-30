@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cicleOne {
+  width: 150px;
+  height: 150px;
+  border: 30px solid rgb(82, 138, 160);
+  border-radius: 50%;
+  position: relative;
+  left: 340px;
+  top: 110px;
+}
+img {
+  width: 480px;
+  height: 440px;
+  border-radius: 50%;
+  position: relative;
+}
+.circleTwo {
+  width: 130px;
+  height: 130px;
+  background-color: rgb(161, 211, 231);
+  border-radius: 50%;
+  position: relative;
+  bottom: 100px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: rgb(47, 89, 106);
+  color: white;
+  padding: 50px 50px;
+  border-radius: 20px;
+  gap: 15px;
+  position: relative;
+  bottom: 240px;
+  left: 200px;
+}
+h3 {
+  font-size: 25px;
+  text-align: start;
+}
+a {
+  color: white;
+}
+button {
+  background-color: whitesmoke;
+  color: gray;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+}
+button:hover {
+  cursor: pointer;
+}
