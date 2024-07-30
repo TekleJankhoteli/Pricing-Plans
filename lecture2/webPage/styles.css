@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10% 20%;
+}
+article {
+  display: flex;
+}
+.aboutUs {
+  padding: 40px 40px;
+}
+h1 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+.articleMainP {
+  color: gray;
+  letter-spacing: 1.5px;
+  padding-bottom: 25px;
+}
+.articleP {
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+  padding-bottom: 25px;
+}
+.aboutUs p:last-of-type {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+a {
+  color: black;
+  text-decoration-color: orange;
+}
+button {
+  border: 1px solid orange;
+  background: none;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+img {
+  width: 400px;
+}
+
+section {
+  display: flex;
+  padding-top: 40px;
+}
+.divForNumberAndName {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  gap: 30px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: orange;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.subSection p {
+  font-style: italic;
+  padding-right: 30px;
+}
